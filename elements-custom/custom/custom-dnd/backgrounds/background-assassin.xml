@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Zoldyck Assassin</name>
+		<description>Zoldyck Assassin Background</description>
+		<author>u/Jerrod</author>
+		<update version="0.0.1">
+			<file name="background-assassin.xml" url="https://raw.githubusercontent.com/community-elements/elements-custom/master/custom/custom-dnd/backgrounds/background-assassin.xml" />
+		</update>
+	</info>
+	
+	<element name="Assassin" type="Background" source="Custom: DnD" id="ID_CUSTOM_BACKGROUND_ASSASSIN">
+		<description>
+			<p>You have spent your life training to kill people</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Stealth, Investigation, and Perception</li>
+				<li><strong>Tool Proficiencies:</strong> Thieves' Tools</li>
+			</ul>
+			<div element="ID_CUSTOM_BACKGROUND_FEATURE_ASSASSIN_KEEN_SENSE" />
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p>assassins are generally good at killing</p>
+		</description>	
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND" />
+			<select type="Proficiency" number="3" supports="ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_PERCEPTION" />
+			<select type="Language" name="Language (Assassin)" number="1"/>
+			<grant type="Background Feature" id="ID_CUSTOM_BACKGROUND_FEATURE_ASSASSIN_KEEN_SENSE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select name="Personality Trait" type="List" optional="true" number="2">
+				<item id="1">I am strong and quick-thinking, but am easily embarrassed when complimented</item>
+			</select>
+			<select name="Ideal" type="List" optional="true">
+				<item id="1">Killing and fun are what i look for.</item>
+			</select>
+			<select name="Bond" type="List" optional="true">
+				<item id="1">When i make a friend i'm completely loyal to them.</item>
+			</select>
+			<select name="Flaw" type="List" optional="true">
+				<item id="1">I can be extremely cautious to people i think are too strong for me.</item>
+			</select>
+		</rules>			
+	</element>
+	
+	<element name="Feature: Keen Sense" type="Background Feature" source="Custom: DnD" id="ID_CUSTOM_BACKGROUND_FEATURE_ASSASSIN_KEEN_SENSE">
+		<supports>Background Feature</supports>
+		<description>
+			<p>I have the ability to rip out a persons heart.</p>
+		</description>
+		<sheet alt="Keen Sense" />
+	</element>
+	
+</elements>

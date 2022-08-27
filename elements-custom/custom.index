@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<update version="0.0.7">
+			<file name="custom.index" url="https://raw.githubusercontent.com/community-elements/elements-custom/master/custom.index" />
+		</update>
+	</info>
+	<files>
+		<file name="custom-dnd.index" url="https://raw.githubusercontent.com/community-elements/elements-custom/master/custom/custom-dnd.index" />
+	</files>
+</index>
