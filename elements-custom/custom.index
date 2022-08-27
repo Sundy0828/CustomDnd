@@ -2,10 +2,10 @@
 <index>
 	<info>
 		<update version="0.0.7">
-			<file name="custom.index" url="https://raw.githubusercontent.com/community-elements/elements-custom/master/custom.index" />
+			<file name="custom.index" url="https://github.com/Sundy0828/CustomDnd/blob/master/elements-custom/custom.index" />
 		</update>
 	</info>
 	<files>
-		<file name="custom-dnd.index" url="https://raw.githubusercontent.com/community-elements/elements-custom/master/custom/custom-dnd.index" />
+		<file name="custom-dnd.index" url="https://github.com/Sundy0828/CustomDnd/blob/master/elements-custom/custom/custom-dnd.index" />
 	</files>
 </index>

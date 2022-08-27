@@ -2,17 +2,17 @@
 <elements>
 	<info>
 		<update version="0.1">
-			<file name="source.xml" url="https://raw.githubusercontent.com/community-elements/elements-custom/master/custom/custom-dnd/source.xml" />
+			<file name="source.xml" url="https://github.com/Sundy0828/CustomDnd/blob/master/elements-custom/custom/custom-dnd/source.xml" />
 		</update>
 	</info>
-	<element name="Custom: DnD" type="Source" source="Core" id="ID_RDDT_SOURCE_CUSTOM_DND">
+	<element name="Custom: DnD" type="Source" source="Core" id="ID_CUSTOM_SOURCE_CUSTOM_DND">
 		<description>
 			<![CDATA[<p>Homebrew content posted on the r/DnD Subcustom.</p>]]>
 		</description>
 		<setters>
-			<set name="abbreviation">RDDT</set>
+			<set name="abbreviation">CUSTOM</set>
 			<set name="url">https://www.custom.com/r/DnD/</set>
-			<set name="author" abbreviation="RDDT">DnD Subcustom</set>
+			<set name="author" abbreviation="CUSTOM">DnD Subcustom</set>
 			<set name="homebrew">true</set>
 		</setters>
 	</element>
