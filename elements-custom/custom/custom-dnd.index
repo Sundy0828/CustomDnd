@@ -3,13 +3,13 @@
 	<info>
 		<name>r/DnD</name>
 		<update version="0.0.1">
-			<file name="custom-dnd.index" url="https://raw.githubusercontent.com/community-elements/elements-custom/master/custom/custom-dnd.index" />
+			<file name="custom-dnd.index" url="https://github.com/Sundy0828/CustomDnd/blob/master/elements-custom/custom/custom-dnd.index" />
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/community-elements/elements-custom/master/custom/custom-dnd/source.xml" />
+		<file name="source.xml" url="https://github.com/Sundy0828/CustomDnd/blob/master/elements-custom/custom/custom-dnd/source.xml" />
 	
 		<!-- backgrounds -->
-		<file name="background-assassin.xml" url="https://raw.githubusercontent.com/community-elements/elements-custom/master/custom/custom-dnd/backgrounds/background-assassin.xml" />
+		<file name="background-assassin.xml" url="https://github.com/Sundy0828/CustomDnd/blob/master/elements-custom/custom/custom-dnd/backgrounds/background-assassin.xml" />
 	</files>
 </index>
